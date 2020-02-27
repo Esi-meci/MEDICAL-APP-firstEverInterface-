@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp/Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="jquery.min.js" type="text/javascript"></script>
+	<script src="bootstrap.js" type="text/javascript"></script>
+	<script scr="bootstrap1.js" type="text/javascript"></script>
+	<script src="work.js" async></script>
+</head>
+<body style="background-color: grey; background-image: url(com.jpg); background-repeat: no-repeat; background-size: cover;">
+	<div class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">	
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"> UNIQUELY ESI MED</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="Appointment.html">Book An Appointment</a></li>
+						<li><a href="#">Accepts Bookings</a></li>
+					</ul>
+						<form class="nav navbar-form navbar-right" style="padding-left: 600px">
+						<p id="message"></p>
+						<label for="user"></label>
+							<input type="text" class="form-control" id="Email" placeholder="Email">
+							<label for="pwd"></label>
+							<input type="Password" class="form-control" id="PaW" placeholder="Password">
+							<button type="button" class="btn btn-default">Login</button>
+						</form>
+				</div>
+			</div>
+		</nav>
+		<div style=" padding-top: 40px" class="col-sm-6 container">
+				<img  src="logo.jpg" width="250px" height="180px" alt="logo" class="img-circle" style="padding-right: 100px; margin-left: 100px; padding-top: 26px">
+				<div style="background-color: grey; opacity: 10">
+					<h4 style="color: black"><strong>Sign Up</strong></h4><br>
+				<form class="form-inline" name='what'>
+				    <div class="form-group" style="color: black">
+						<label for="user">First Name:</label>
+						<input type="text" class="form-control" id="FN" style="width: 80%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="F.name" required>
+					</div>
+					<div class="form-group" style="color: black">
+						<label for="user">Last Name:</label>
+						<input type="text" class="form-control" id="LN" style="width: 80%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="L.name" required>
+					</div><br>
+					<div class="form-group" style="color: black">
+						<label for="user">Email:</label> 	
+						<input type="email" class="form-control" id="email" style="width: 95%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="Gowinmercy@yahoo.com" required>
+					</div>
+					<div class="form-group" style="color: black; padding-left: 35px">
+						<label for="user">Phone Number:</label>
+						<input type="text" class="form-control" id="PN" style="width: 75%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="09090240674" required>
+					</div><br>
+					<div class="form-group" style="color: black">
+						<label for="user">Specialization(for Doctors):</label>
+						<input type="text" class="form-control" id="SP" style="width: 50%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="Surgeon">
+					</div>
+					<div class="form-group" style="color: black; margin-left:-112px ">
+						<label for="user">ADDRESS: </label>
+						<input type="text" class="form-control" id="ADD" style="width: 72%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="7, steven street,Abuja" required>
+					</div><br>
+					<div class="form-group" style="color: black;">
+						<label for="user">City:</label><br>
+						<input type="text" class="form-control" id="city" style="width: 80%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="Abuja" required>
+					</div>
+					<div class="form-group" style="color: black; margin-left: 80px">
+						<label for="user">Qualification(For Doctors):</label>
+						<input type="text" class="form-control" id="Qual" style="width: 60%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;" placeholder="BSc">
+					</div><br>
+					<div class="form-group" style="color: black">
+						<label for="pwd">Password</label>
+						<input type="password" class="form-control" id="PW" style="width: 85%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;">
+					</div>
+					<div class="form-group" style="color: black; margin-left: 8px">
+						<label for="user">Confirm Password:</label>
+						<input type="password" class="form-control" id="CPW"style="width: 70%; padding:.2em; border:1px solid white; margin: 1em 1em 1em 0; border-color: black; color: #000; letter-spacing: 1px; background:transparent;">
+					</div><br>
+					<div class="radio-inline" style="color: black" >
+						<input type="radio" name="opradio" value='doctor'><strong>DOCTOR</strong>
+					</div>
+					<div class="radio-inline" style="color: black">
+						<input type="radio" name="opradio" value="patient"><strong>PATIENT</strong>
+					</div><br><br>
+					<button type="button" class="btn btn-default" value='doctor' data-dissmiss="modal"style="text-align: center; margin-left: 10px;">SignUp</button>
+				</form>
+			</div>
+		</div>
+		<div class="col-sm-6 container-fluid">
+			<div class="jumbotron" style="padding-top: 55px">
+				<h1 style="color: black; text-align: center;"><strong>UNIQUELY ESI</strong></h1>
+				<p style="color: black; text-align: center; font-family: cursive;">providing Good health without stress, <br> also available for emergency situations,<br> At cheaper rate </p>
+			</div>
+			<div class="jumbotron" style="padding-top: 10px;">
+				<div id="mycarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#mycarousel" data-slide-to="1"></li>
+						<li data-target="#mycarousel" data-slide-to="2"></li>
+			   		</ol>
+			    	<div class="carousel-inner">
+			    		<div class="item active">
+			    			<img src="boy.jpg" alt="image" width="700px" height="10px">
+			    			<div class="carousel-caption" style="text-align: center;">
+			    				<h2 style="color: black; font-family: serif;">
+									UNIQUELY ESI MED
+								</h2>
+			   					<p style="color: black">LIVE HEALTHY</p>
+			    			</div>
+			    		</div>
+				    	<div class="item">
+			    			<img src="hometr.jpg" alt="image" width="700px" height="100px">
+			    			<div class="carousel-caption" style="text-align: right;">
+			    				<h3 style="font-family: serif; color:black  ">ESI MED</h3>
+			    				<p style="font-family: serif italic; color:black ">Good Life<br> Just A CLick Away</p>
+			    			</div>
+			    		</div>
+			    		<div class="item">
+			    			<img src="home2.jpg" alt="image" width="700px" height="100px">
+			    			<div class="carousel-caption" style="text-align: right;">
+			    				<h3 style="color: black; font-family: initial;">ESI MEDICAL</h3>
+			    				<p style="color: darkblue; font-family:fantasy;">Reliable Home Service</p>
+			   				</div>
+			   			</div>
+			   		</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+</body>
+</html>
